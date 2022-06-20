@@ -1,5 +1,13 @@
 html {
   font-family: "Source Sans Pro", sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background-image: url("assets/motherboard-wallpaper.jpg");
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .text-align-center {
@@ -73,4 +81,16 @@ html {
 
 .tech-section {
   background-color: gainsboro;
+}
+
+.projects-section {
+  background-color: snow;
+}
+
+.contact-section {
+  background-color: #303b43;
+}
+
+.blue-text {
+  color: lightblue;
 }
